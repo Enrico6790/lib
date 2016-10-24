@@ -1,0 +1,23 @@
+﻿Build started 17/10/2016 18:16:24.
+     1>Project "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\libcstring\libcstring.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\".
+       InitializeBuildStatus:
+         Creating "Release\libcstring.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libcstring\libcstring_support.c ..\..\libcstring\libcstring_wide_string.c
+         libcstring_support.c
+         libcstring_wide_string.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcstring.lib" /NOLOGO Release\libcstring_support.obj
+         Release\libcstring_wide_string.obj
+         libcstring.vcxproj -> C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcstring.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libcstring.unsuccessfulbuild".
+         Touching "Release\libcstring.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\libcstring\libcstring.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.20

@@ -1,0 +1,33 @@
+﻿Build started 18/10/2016 11:39:21.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libhmac\libhmac.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libhmac.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libhmac.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBHMAC /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libhmac\libhmac_error.c ..\..\libhmac\libhmac_md5.c ..\..\libhmac\libhmac_sha1.c ..\..\libhmac\libhmac_sha224.c ..\..\libhmac\libhmac_sha256.c ..\..\libhmac\libhmac_sha512.c ..\..\libhmac\libhmac_support.c
+         libhmac_error.c
+         libhmac_md5.c
+         libhmac_sha1.c
+         libhmac_sha224.c
+         libhmac_sha256.c
+         libhmac_sha512.c
+         libhmac_support.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libhmac.lib" /NOLOGO Release\libhmac_error.obj
+         Release\libhmac_md5.obj
+         Release\libhmac_sha1.obj
+         Release\libhmac_sha224.obj
+         Release\libhmac_sha256.obj
+         Release\libhmac_sha512.obj
+         Release\libhmac_support.obj
+         libhmac.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libhmac.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libhmac.unsuccessfulbuild".
+         Touching "Release\libhmac.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libhmac\libhmac.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.90

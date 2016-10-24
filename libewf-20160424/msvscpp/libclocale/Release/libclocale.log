@@ -1,0 +1,25 @@
+﻿Build started 18/10/2016 11:39:13.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libclocale\libclocale.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libclocale.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libclocale.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCLOCALE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libclocale\libclocale_codepage.c ..\..\libclocale\libclocale_locale.c ..\..\libclocale\libclocale_support.c
+         libclocale_codepage.c
+         libclocale_locale.c
+         libclocale_support.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libclocale.lib" /NOLOGO Release\libclocale_codepage.obj
+         Release\libclocale_locale.obj
+         Release\libclocale_support.obj
+         libclocale.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libclocale.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libclocale.unsuccessfulbuild".
+         Touching "Release\libclocale.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libclocale\libclocale.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.64

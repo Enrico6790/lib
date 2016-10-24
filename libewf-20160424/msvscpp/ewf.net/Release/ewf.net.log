@@ -1,0 +1,44 @@
+﻿Build started 18/10/2016 11:40:41.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf.net\ewf.net.vcxproj" on node 5 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\ewf.net.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\ewf.net.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D LIBEWF_DLL_IMPORT /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /analyze- /errorReport:prompt ..\..\ewf.net\ewf.net_datetime.cpp ..\..\ewf.net\ewf.net_file_entry.cpp ..\..\ewf.net\ewf.net_handle.cpp ..\..\ewf.net\ewf.net_sector_range.cpp ..\..\ewf.net\ewf.net_support.cpp /clr:nostdlib 
+         ewf.net_datetime.cpp
+         ewf.net_file_entry.cpp
+     1>c:\users\adevito\documents\tools\libewf-20160424\ewf.net\ewf.net_file_entry.h(41): warning C4487: 'EWF::FileEntry::GetType' : matches inherited non-virtual method 'System::Object::GetType' but is not explicitly marked 'new'
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\mscorlib.dll : see declaration of 'System::Object::GetType'
+         ewf.net_handle.cpp
+     1>c:\users\adevito\documents\tools\libewf-20160424\ewf.net\ewf.net_file_entry.h(41): warning C4487: 'EWF::FileEntry::GetType' : matches inherited non-virtual method 'System::Object::GetType' but is not explicitly marked 'new'
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\mscorlib.dll : see declaration of 'System::Object::GetType'
+         ewf.net_sector_range.cpp
+         ewf.net_support.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /Zi /clr /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D LIBEWF_DLL_IMPORT /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\adevito\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\ewf.net.res" ..\..\ewf.net\ewf.net.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\ewf.net.dll" /NOLOGO /LIBPATH:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\\" libewf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ewf.net.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\ewf.net.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\ewf.net.lib" /MACHINE:X86 /DLL Release\ewf.net.res
+         Release\ewf.net_datetime.obj
+         Release\ewf.net_file_entry.obj
+         Release\ewf.net_handle.obj
+         Release\ewf.net_sector_range.obj
+         Release\ewf.net_support.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libewf.lib"
+         ewf.net.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\ewf.net.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\ewf.net.dll;#2" /manifest Release\ewf.net.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\ewf.net.unsuccessfulbuild".
+         Touching "Release\ewf.net.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf.net\ewf.net.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.49

@@ -1,0 +1,27 @@
+﻿Build started 18/10/2016 11:39:22.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcdatetime\libcdatetime.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libcdatetime.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libcdatetime.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCDATETIME /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libcdatetime\libcdatetime_elements.c ..\..\libcdatetime\libcdatetime_error.c ..\..\libcdatetime\libcdatetime_support.c ..\..\libcdatetime\libcdatetime_timestamp.c
+         libcdatetime_elements.c
+         libcdatetime_error.c
+         libcdatetime_support.c
+         libcdatetime_timestamp.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcdatetime.lib" /NOLOGO Release\libcdatetime_elements.obj
+         Release\libcdatetime_error.obj
+         Release\libcdatetime_support.obj
+         Release\libcdatetime_timestamp.obj
+         libcdatetime.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcdatetime.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libcdatetime.unsuccessfulbuild".
+         Touching "Release\libcdatetime.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcdatetime\libcdatetime.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.38

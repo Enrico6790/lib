@@ -1,0 +1,37 @@
+﻿Build started 18/10/2016 11:39:14.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcdata\libcdata.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libcdata.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libcdata.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCDATA /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libcdata\libcdata_array.c ..\..\libcdata\libcdata_btree.c ..\..\libcdata\libcdata_error.c ..\..\libcdata\libcdata_list.c ..\..\libcdata\libcdata_list_element.c ..\..\libcdata\libcdata_range_list.c ..\..\libcdata\libcdata_range_list_value.c ..\..\libcdata\libcdata_support.c ..\..\libcdata\libcdata_tree_node.c
+         libcdata_array.c
+         libcdata_btree.c
+         libcdata_error.c
+         libcdata_list.c
+         libcdata_list_element.c
+         libcdata_range_list.c
+         libcdata_range_list_value.c
+         libcdata_support.c
+         libcdata_tree_node.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcdata.lib" /NOLOGO Release\libcdata_array.obj
+         Release\libcdata_btree.obj
+         Release\libcdata_error.obj
+         Release\libcdata_list.obj
+         Release\libcdata_list_element.obj
+         Release\libcdata_range_list.obj
+         Release\libcdata_range_list_value.obj
+         Release\libcdata_support.obj
+         Release\libcdata_tree_node.obj
+         libcdata.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcdata.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libcdata.unsuccessfulbuild".
+         Touching "Release\libcdata.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcdata\libcdata.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.11

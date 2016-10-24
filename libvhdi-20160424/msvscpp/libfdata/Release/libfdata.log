@@ -1,0 +1,53 @@
+﻿Build started 17/10/2016 17:50:53.
+     1>Project "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\libfdata\libfdata.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libfdata.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /I..\..\libcdata /I..\..\libcnotify /I..\..\libfcache /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBFCACHE /D HAVE_LOCAL_LIBFDATA /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libfdata\libfdata_area.c ..\..\libfdata\libfdata_btree.c ..\..\libfdata\libfdata_btree_node.c ..\..\libfdata\libfdata_btree_range.c ..\..\libfdata\libfdata_cache.c ..\..\libfdata\libfdata_error.c ..\..\libfdata\libfdata_list.c ..\..\libfdata\libfdata_list_element.c ..\..\libfdata\libfdata_mapped_range.c ..\..\libfdata\libfdata_notify.c ..\..\libfdata\libfdata_range.c ..\..\libfdata\libfdata_range_list.c ..\..\libfdata\libfdata_segments_array.c ..\..\libfdata\libfdata_stream.c ..\..\libfdata\libfdata_support.c ..\..\libfdata\libfdata_tree.c ..\..\libfdata\libfdata_tree_node.c ..\..\libfdata\libfdata_vector.c
+         libfdata_area.c
+         libfdata_btree.c
+         libfdata_btree_node.c
+         libfdata_btree_range.c
+         libfdata_cache.c
+         libfdata_error.c
+         libfdata_list.c
+         libfdata_list_element.c
+         libfdata_mapped_range.c
+         libfdata_notify.c
+         libfdata_range.c
+         libfdata_range_list.c
+         libfdata_segments_array.c
+         libfdata_stream.c
+         libfdata_support.c
+         libfdata_tree.c
+         libfdata_tree_node.c
+         libfdata_vector.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libfdata.lib" /NOLOGO Release\libfdata_area.obj
+         Release\libfdata_btree.obj
+         Release\libfdata_btree_node.obj
+         Release\libfdata_btree_range.obj
+         Release\libfdata_cache.obj
+         Release\libfdata_error.obj
+         Release\libfdata_list.obj
+         Release\libfdata_list_element.obj
+         Release\libfdata_mapped_range.obj
+         Release\libfdata_notify.obj
+         Release\libfdata_range.obj
+         Release\libfdata_range_list.obj
+         Release\libfdata_segments_array.obj
+         Release\libfdata_stream.obj
+         Release\libfdata_support.obj
+         Release\libfdata_tree.obj
+         Release\libfdata_tree_node.obj
+         Release\libfdata_vector.obj
+         libfdata.vcxproj -> C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libfdata.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libfdata.unsuccessfulbuild".
+         Touching "Release\libfdata.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\libfdata\libfdata.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.17

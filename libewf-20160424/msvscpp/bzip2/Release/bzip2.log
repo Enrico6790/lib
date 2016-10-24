@@ -1,0 +1,187 @@
+﻿Build started 18/10/2016 11:38:50.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\bzip2\bzip2.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\bzip2.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\bzip2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\bzip2 /Zi /nologo /W4 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D BZ_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\bzip2\blocksort.c ..\..\..\bzip2\bzlib.c ..\..\..\bzip2\compress.c ..\..\..\bzip2\crctable.c ..\..\..\bzip2\decompress.c ..\..\..\bzip2\huffman.c ..\..\..\bzip2\randtable.c
+         blocksort.c
+     1>..\..\..\bzip2\blocksort.c(135): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\blocksort.c(136): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\blocksort.c(147): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\blocksort.c(261): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\blocksort.c(275): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\blocksort.c(508): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\blocksort.c(664): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\blocksort.c(665): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\blocksort.c(675): warning C4127: conditional expression is constant
+         bzlib.c
+     1>..\..\..\bzip2\bzlib.c(93): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(94): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(95): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(102): warning C4100: 'opaque' : unreferenced formal parameter
+     1>..\..\..\bzip2\bzlib.c(109): warning C4100: 'opaque' : unreferenced formal parameter
+     1>..\..\..\bzip2\bzlib.c(296): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(312): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(338): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(367): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(542): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(544): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(564): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\bzlib.c(608): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(612): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(640): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\bzlib.c(712): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(714): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(734): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\bzlib.c(735): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\bzlib.c(741): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\bzlib.c(747): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\bzlib.c(752): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\bzlib.c(761): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(763): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(783): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\bzlib.c(784): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\bzlib.c(789): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\bzlib.c(794): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\bzlib.c(798): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\bzlib.c(817): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(855): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(987): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(1046): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(1184): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\bzlib.c(1423): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(314) : see declaration of 'setmode'
+     1>..\..\..\bzip2\bzlib.c(1423): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(723) : see declaration of 'fileno'
+     1>..\..\..\bzip2\bzlib.c(1431): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fdopen. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(721) : see declaration of 'fdopen'
+     1>..\..\..\bzip2\bzlib.c(1506): warning C4100: 'b' : unreferenced formal parameter
+         compress.c
+     1>..\..\..\bzip2\compress.c(112): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\compress.c(176): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\compress.c(206): warning C4244: '=' : conversion from 'int' to 'UInt16', possible loss of data
+     1>..\..\..\bzip2\compress.c(214): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\compress.c(228): warning C4244: '=' : conversion from 'Int32' to 'UInt16', possible loss of data
+     1>..\..\..\bzip2\compress.c(345): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\compress.c(404): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\compress.c(464): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\compress.c(476): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\compress.c(548): warning C4127: conditional expression is constant
+         crctable.c
+         decompress.c
+     1>..\..\..\bzip2\decompress.c(33): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(197): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(197): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(200): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(200): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(203): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(203): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(206): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(222): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(222): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(226): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(226): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(228): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(228): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(230): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(230): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(232): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(232): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(234): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(234): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(242): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(242): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(244): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(244): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(246): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(246): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(248): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(248): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(251): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(251): warning C4244: '=' : conversion from 'UInt32' to 'Bool', possible loss of data
+     1>..\..\..\bzip2\decompress.c(254): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(254): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(256): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(256): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(258): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(258): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(268): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(268): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(279): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(279): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(287): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(289): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(293): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(294): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(294): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(299): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(318): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(320): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(322): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(322): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(324): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(324): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(327): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(373): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(373): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(373): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(375): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(394): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(394): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(394): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(483): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(483): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(483): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(532): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(532): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(541): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(541): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(584): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(584): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(586): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(586): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(588): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(588): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(590): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(590): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(592): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(592): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(596): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(596): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(598): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(598): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(600): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(600): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(602): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(602): warning C4244: '=' : conversion from 'UInt32' to 'UChar', possible loss of data
+     1>..\..\..\bzip2\decompress.c(608): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\decompress.c(611): warning C4127: conditional expression is constant
+         huffman.c
+     1>..\..\..\bzip2\huffman.c(82): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\huffman.c(101): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\huffman.c(102): warning C4127: conditional expression is constant
+     1>..\..\..\bzip2\huffman.c(119): warning C4244: '=' : conversion from 'Int32' to 'UChar', possible loss of data
+         randtable.c
+         Generating Code...
+     1>c:\users\adevito\documents\tools\bzip2\compress.c(458): warning C4701: potentially uninitialized local variable 'nSelectors' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\bzip2.dll" /NOLOGO /LIBPATH:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\bzip2.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\bzip2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\bzip2.lib" /MACHINE:X86 /DLL Release\blocksort.obj
+         Release\bzlib.obj
+         Release\compress.obj
+         Release\crctable.obj
+         Release\decompress.obj
+         Release\huffman.obj
+         Release\randtable.obj
+         bzip2.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\bzip2.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\bzip2.dll;#2" /manifest Release\bzip2.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\bzip2.unsuccessfulbuild".
+         Touching "Release\bzip2.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\bzip2\bzip2.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.92

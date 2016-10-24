@@ -1,0 +1,25 @@
+﻿Build started 18/10/2016 11:39:13.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libfguid\libfguid.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libfguid.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libfguid.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBFGUID /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libfguid\libfguid_error.c ..\..\libfguid\libfguid_identifier.c ..\..\libfguid\libfguid_support.c
+         libfguid_error.c
+         libfguid_identifier.c
+         libfguid_support.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libfguid.lib" /NOLOGO Release\libfguid_error.obj
+         Release\libfguid_identifier.obj
+         Release\libfguid_support.obj
+         libfguid.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libfguid.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libfguid.unsuccessfulbuild".
+         Touching "Release\libfguid.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libfguid\libfguid.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.53

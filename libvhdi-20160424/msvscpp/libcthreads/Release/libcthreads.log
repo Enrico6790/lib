@@ -1,0 +1,39 @@
+﻿Build started 17/10/2016 17:50:35.
+     1>Project "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\libcthreads\libcthreads.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libcthreads.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libcthreads\libcthreads_condition.c ..\..\libcthreads\libcthreads_error.c ..\..\libcthreads\libcthreads_lock.c ..\..\libcthreads\libcthreads_mutex.c ..\..\libcthreads\libcthreads_queue.c ..\..\libcthreads\libcthreads_read_write_lock.c ..\..\libcthreads\libcthreads_repeating_thread.c ..\..\libcthreads\libcthreads_support.c ..\..\libcthreads\libcthreads_thread.c ..\..\libcthreads\libcthreads_thread_attributes.c ..\..\libcthreads\libcthreads_thread_pool.c
+         libcthreads_condition.c
+         libcthreads_error.c
+         libcthreads_lock.c
+         libcthreads_mutex.c
+         libcthreads_queue.c
+         libcthreads_read_write_lock.c
+         libcthreads_repeating_thread.c
+         libcthreads_support.c
+         libcthreads_thread.c
+         libcthreads_thread_attributes.c
+         libcthreads_thread_pool.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcthreads.lib" /NOLOGO Release\libcthreads_condition.obj
+         Release\libcthreads_error.obj
+         Release\libcthreads_lock.obj
+         Release\libcthreads_mutex.obj
+         Release\libcthreads_queue.obj
+         Release\libcthreads_read_write_lock.obj
+         Release\libcthreads_repeating_thread.obj
+         Release\libcthreads_support.obj
+         Release\libcthreads_thread.obj
+         Release\libcthreads_thread_attributes.obj
+         Release\libcthreads_thread_pool.obj
+         libcthreads.vcxproj -> C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcthreads.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libcthreads.unsuccessfulbuild".
+         Touching "Release\libcthreads.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\libcthreads\libcthreads.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.28

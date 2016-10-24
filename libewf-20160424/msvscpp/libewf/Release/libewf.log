@@ -1,0 +1,127 @@
+﻿Build started 18/10/2016 11:39:45.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libewf\libewf.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libewf.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libewf.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /I..\..\libcdata /I..\..\libclocale /I..\..\libcnotify /I..\..\libcsplit /I..\..\libuna /I..\..\libcfile /I..\..\libcpath /I..\..\libbfio /I..\..\libfcache /I..\..\libfdata /I..\..\libfguid /I..\..\libfvalue /I..\..\..\zlib /I..\..\..\bzip2 /I..\..\libhmac /I..\..\libcaes /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBCSPLIT /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBCFILE /D HAVE_LOCAL_LIBCPATH /D HAVE_LOCAL_LIBBFIO /D HAVE_LOCAL_LIBFCACHE /D HAVE_LOCAL_LIBFDATA /D HAVE_LOCAL_LIBFGUID /D HAVE_LOCAL_LIBFVALUE /D ZLIB_DLL /D BZ_DLL /D HAVE_LOCAL_LIBHMAC /D HAVE_LOCAL_LIBCAES /D LIBEWF_DLL_EXPORT /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libewf\libewf.c ..\..\libewf\libewf_analytical_data.c ..\..\libewf\libewf_case_data.c ..\..\libewf\libewf_checksum.c ..\..\libewf\libewf_chunk_data.c ..\..\libewf\libewf_chunk_group.c ..\..\libewf\libewf_chunk_table.c ..\..\libewf\libewf_compression.c ..\..\libewf\libewf_data_chunk.c ..\..\libewf\libewf_date_time.c ..\..\libewf\libewf_date_time_values.c ..\..\libewf\libewf_debug.c ..\..\libewf\libewf_deflate.c ..\..\libewf\libewf_device_information.c ..\..\libewf\libewf_error.c ..\..\libewf\libewf_file_entry.c ..\..\libewf\libewf_filename.c ..\..\libewf\libewf_handle.c ..\..\libewf\libewf_hash_sections.c ..\..\libewf\libewf_hash_values.c ..\..\libewf\libewf_header_sections.c ..\..\libewf\libewf_header_values.c ..\..\libewf\libewf_io_handle.c ..\..\libewf\libewf_media_values.c ..\..\libewf\libewf_metadata.c ..\..\libewf\libewf_notify.c ..\..\libewf\libewf_read_io_handle.c ..\..\libewf\libewf_restart_data.c ..\..\libewf\libewf_section.c ..\..\libewf\libewf_sector_range.c ..\..\libewf\libewf_segment_file.c ..\..\libewf\libewf_segment_table.c ..\..\libewf\libewf_single_file_entry.c ..\..\libewf\libewf_single_file_tree.c ..\..\libewf\libewf_single_files.c ..\..\libewf\libewf_support.c ..\..\libewf\libewf_write_io_handle.c
+         libewf.c
+         libewf_analytical_data.c
+         libewf_case_data.c
+         libewf_checksum.c
+         libewf_chunk_data.c
+         libewf_chunk_group.c
+     1>..\..\libewf\libewf_chunk_group.c(797): warning C4100: 'number_of_offsets' : unreferenced formal parameter
+     1>..\..\libewf\libewf_chunk_group.c(1000): warning C4100: 'chunk_size' : unreferenced formal parameter
+         libewf_chunk_table.c
+         libewf_compression.c
+         libewf_data_chunk.c
+         libewf_date_time.c
+         libewf_date_time_values.c
+         libewf_debug.c
+         libewf_deflate.c
+         libewf_device_information.c
+         libewf_error.c
+         libewf_file_entry.c
+         libewf_filename.c
+         libewf_handle.c
+         libewf_hash_sections.c
+         libewf_hash_values.c
+         Generating Code...
+         Compiling...
+         libewf_header_sections.c
+         libewf_header_values.c
+         libewf_io_handle.c
+         libewf_media_values.c
+         libewf_metadata.c
+         libewf_notify.c
+         libewf_read_io_handle.c
+         libewf_restart_data.c
+         libewf_section.c
+     1>..\..\libewf\libewf_section.c(1579): warning C4100: 'io_handle' : unreferenced formal parameter
+         libewf_sector_range.c
+         libewf_segment_file.c
+     1>..\..\libewf\libewf_segment_file.c(1521): warning C4244: '=' : conversion from 'int64_t' to 'uint32_t', possible loss of data
+     1>..\..\libewf\libewf_segment_file.c(1530): warning C4244: '=' : conversion from 'int64_t' to 'uint32_t', possible loss of data
+     1>..\..\libewf\libewf_segment_file.c(3977): warning C4100: 'chunk_index' : unreferenced formal parameter
+         libewf_segment_table.c
+         libewf_single_file_entry.c
+         libewf_single_file_tree.c
+         libewf_single_files.c
+         libewf_support.c
+         libewf_write_io_handle.c
+     1>..\..\libewf\libewf_write_io_handle.c(900): warning C4100: 'chunk_table' : unreferenced formal parameter
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\libewf.res" ..\..\libewf\libewf.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libewf.dll" /NOLOGO /LIBPATH:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\\" advapi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\libewf.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libewf.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libewf.lib" /MACHINE:X86 /DLL Release\libewf.res
+         Release\libewf.obj
+         Release\libewf_analytical_data.obj
+         Release\libewf_case_data.obj
+         Release\libewf_checksum.obj
+         Release\libewf_chunk_data.obj
+         Release\libewf_chunk_group.obj
+         Release\libewf_chunk_table.obj
+         Release\libewf_compression.obj
+         Release\libewf_data_chunk.obj
+         Release\libewf_date_time.obj
+         Release\libewf_date_time_values.obj
+         Release\libewf_debug.obj
+         Release\libewf_deflate.obj
+         Release\libewf_device_information.obj
+         Release\libewf_error.obj
+         Release\libewf_file_entry.obj
+         Release\libewf_filename.obj
+         Release\libewf_handle.obj
+         Release\libewf_hash_sections.obj
+         Release\libewf_hash_values.obj
+         Release\libewf_header_sections.obj
+         Release\libewf_header_values.obj
+         Release\libewf_io_handle.obj
+         Release\libewf_media_values.obj
+         Release\libewf_metadata.obj
+         Release\libewf_notify.obj
+         Release\libewf_read_io_handle.obj
+         Release\libewf_restart_data.obj
+         Release\libewf_section.obj
+         Release\libewf_sector_range.obj
+         Release\libewf_segment_file.obj
+         Release\libewf_segment_table.obj
+         Release\libewf_single_file_entry.obj
+         Release\libewf_single_file_tree.obj
+         Release\libewf_single_files.obj
+         Release\libewf_support.obj
+         Release\libewf_write_io_handle.obj
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\bzip2.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\zlib.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcstring.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcerror.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcthreads.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcdata.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libclocale.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcnotify.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libuna.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcfile.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcsplit.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcpath.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libbfio.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcaes.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libfcache.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libfdata.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libfguid.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libfvalue.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libhmac.lib"
+            Creating library C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libewf.lib and object C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libewf.exp
+         libewf.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libewf.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libewf.dll;#2" /manifest Release\libewf.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\libewf.unsuccessfulbuild".
+         Touching "Release\libewf.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libewf\libewf.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:27.84

@@ -1,0 +1,26 @@
+﻿Build started 17/10/2016 18:17:21.
+     1>Project "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\vmdk_test_open_close\vmdk_test_open_close.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\vmdk_test_open_close.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /I..\..\libcdata /I..\..\libclocale /I..\..\libcnotify /I..\..\libcsplit /I..\..\libuna /I..\..\libcfile /I..\..\libcpath /I..\..\libbfio /Zi /nologo /W4 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBCSPLIT /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBCFILE /D HAVE_LOCAL_LIBCPATH /D HAVE_LOCAL_LIBBFIO /D LIBVMDK_DLL_IMPORT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\tests\vmdk_test_open_close.c
+         vmdk_test_open_close.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\vmdk_test_open_close.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\vmdk_test_open_close.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\vmdk_test_open_close.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\vmdk_test_open_close.lib" /MACHINE:X86 Release\vmdk_test_open_close.obj
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcstring.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcerror.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcthreads.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libvmdk.lib"
+         Generating code
+         Finished generating code
+         vmdk_test_open_close.vcxproj -> C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\vmdk_test_open_close.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\vmdk_test_open_close.exe;#1" /manifest Release\vmdk_test_open_close.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\vmdk_test_open_close.unsuccessfulbuild".
+         Touching "Release\vmdk_test_open_close.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\vmdk_test_open_close\vmdk_test_open_close.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.28

@@ -1,0 +1,23 @@
+﻿Build started 17/10/2016 17:50:35.
+     1>Project "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\libcnotify\libcnotify.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libcnotify.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCNOTIFY /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libcnotify\libcnotify_print.c ..\..\libcnotify\libcnotify_stream.c ..\..\libcnotify\libcnotify_verbose.c
+         libcnotify_print.c
+         libcnotify_stream.c
+         libcnotify_verbose.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcnotify.lib" /NOLOGO Release\libcnotify_print.obj
+         Release\libcnotify_stream.obj
+         Release\libcnotify_verbose.obj
+         libcnotify.vcxproj -> C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcnotify.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libcnotify.unsuccessfulbuild".
+         Touching "Release\libcnotify.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\libcnotify\libcnotify.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.26

@@ -1,0 +1,74 @@
+﻿Build started 17/10/2016 18:17:09.
+     1>Project "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\libvmdk\libvmdk.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libvmdk.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /I..\..\libcdata /I..\..\libclocale /I..\..\libcnotify /I..\..\libcsplit /I..\..\libuna /I..\..\libcfile /I..\..\libcpath /I..\..\libbfio /I..\..\libfcache /I..\..\libfdata /I..\..\libfvalue /I..\..\..\zlib /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBCSPLIT /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBCFILE /D HAVE_LOCAL_LIBCPATH /D HAVE_LOCAL_LIBBFIO /D HAVE_LOCAL_LIBFCACHE /D HAVE_LOCAL_LIBFDATA /D HAVE_LOCAL_LIBFVALUE /D ZLIB_DLL /D LIBVMDK_DLL_EXPORT /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libvmdk\libvmdk.c ..\..\libvmdk\libvmdk_compression.c ..\..\libvmdk\libvmdk_debug.c ..\..\libvmdk\libvmdk_deflate.c ..\..\libvmdk\libvmdk_descriptor_file.c ..\..\libvmdk\libvmdk_error.c ..\..\libvmdk\libvmdk_extent_descriptor.c ..\..\libvmdk\libvmdk_extent_file.c ..\..\libvmdk\libvmdk_extent_table.c ..\..\libvmdk\libvmdk_grain_data.c ..\..\libvmdk\libvmdk_grain_group.c ..\..\libvmdk\libvmdk_grain_table.c ..\..\libvmdk\libvmdk_handle.c ..\..\libvmdk\libvmdk_io_handle.c ..\..\libvmdk\libvmdk_metadata.c ..\..\libvmdk\libvmdk_notify.c ..\..\libvmdk\libvmdk_support.c
+         libvmdk.c
+         libvmdk_compression.c
+         libvmdk_debug.c
+         libvmdk_deflate.c
+     1>..\..\libvmdk\libvmdk_deflate.c(890): warning C4244: 'function' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+     1>..\..\libvmdk\libvmdk_deflate.c(924): warning C4244: 'function' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+         libvmdk_descriptor_file.c
+         libvmdk_error.c
+         libvmdk_extent_descriptor.c
+         libvmdk_extent_file.c
+         libvmdk_extent_table.c
+         libvmdk_grain_data.c
+         libvmdk_grain_group.c
+         libvmdk_grain_table.c
+         libvmdk_handle.c
+         libvmdk_io_handle.c
+         libvmdk_metadata.c
+         libvmdk_notify.c
+         libvmdk_support.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\libvmdk.res" ..\..\libvmdk\libvmdk.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libvmdk.dll" /NOLOGO /LIBPATH:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\libvmdk.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libvmdk.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libvmdk.lib" /MACHINE:X86 /DLL Release\libvmdk.res
+         Release\libvmdk.obj
+         Release\libvmdk_compression.obj
+         Release\libvmdk_debug.obj
+         Release\libvmdk_deflate.obj
+         Release\libvmdk_descriptor_file.obj
+         Release\libvmdk_error.obj
+         Release\libvmdk_extent_descriptor.obj
+         Release\libvmdk_extent_file.obj
+         Release\libvmdk_extent_table.obj
+         Release\libvmdk_grain_data.obj
+         Release\libvmdk_grain_group.obj
+         Release\libvmdk_grain_table.obj
+         Release\libvmdk_handle.obj
+         Release\libvmdk_io_handle.obj
+         Release\libvmdk_metadata.obj
+         Release\libvmdk_notify.obj
+         Release\libvmdk_support.obj
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcstring.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcerror.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcthreads.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcdata.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libclocale.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcnotify.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libuna.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcfile.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcsplit.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcpath.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libbfio.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libfcache.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libfdata.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libfvalue.lib"
+         "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\zlib.lib"
+            Creating library C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libvmdk.lib and object C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libvmdk.exp
+         libvmdk.vcxproj -> C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libvmdk.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libvmdk.dll;#2" /manifest Release\libvmdk.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\libvmdk.unsuccessfulbuild".
+         Touching "Release\libvmdk.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\libvmdk\libvmdk.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.93

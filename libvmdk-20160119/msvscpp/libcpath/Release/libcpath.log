@@ -1,0 +1,23 @@
+﻿Build started 17/10/2016 18:16:58.
+     1>Project "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\libcpath\libcpath.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libcpath.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libclocale /I..\..\libcsplit /I..\..\libuna /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCSPLIT /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBCPATH /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libcpath\libcpath_error.c ..\..\libcpath\libcpath_path.c ..\..\libcpath\libcpath_support.c
+         libcpath_error.c
+         libcpath_path.c
+         libcpath_support.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcpath.lib" /NOLOGO Release\libcpath_error.obj
+         Release\libcpath_path.obj
+         Release\libcpath_support.obj
+         libcpath.vcxproj -> C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcpath.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libcpath.unsuccessfulbuild".
+         Touching "Release\libcpath.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\libcpath\libcpath.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.27

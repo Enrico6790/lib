@@ -1,0 +1,29 @@
+﻿Build started 17/10/2016 18:16:58.
+     1>Project "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\libcsystem\libcsystem.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libcsystem.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libclocale /I..\..\libcnotify /I..\..\libuna /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBCSYSTEM /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libcsystem\libcsystem_error.c ..\..\libcsystem\libcsystem_getopt.c ..\..\libcsystem\libcsystem_glob.c ..\..\libcsystem\libcsystem_signal.c ..\..\libcsystem\libcsystem_string.c ..\..\libcsystem\libcsystem_support.c
+         libcsystem_error.c
+         libcsystem_getopt.c
+         libcsystem_glob.c
+         libcsystem_signal.c
+         libcsystem_string.c
+         libcsystem_support.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcsystem.lib" /NOLOGO Release\libcsystem_error.obj
+         Release\libcsystem_getopt.obj
+         Release\libcsystem_glob.obj
+         Release\libcsystem_signal.obj
+         Release\libcsystem_string.obj
+         Release\libcsystem_support.obj
+         libcsystem.vcxproj -> C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libcsystem.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libcsystem.unsuccessfulbuild".
+         Touching "Release\libcsystem.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\libcsystem\libcsystem.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.75

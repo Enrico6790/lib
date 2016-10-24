@@ -1,0 +1,45 @@
+﻿Build started 18/10/2016 11:39:32.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libsmdev\libsmdev.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libsmdev.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libsmdev.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /I..\..\libcdata /I..\..\libclocale /I..\..\libcnotify /I..\..\libuna /I..\..\libcfile /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBCFILE /D HAVE_LOCAL_LIBSMDEV /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libsmdev\libsmdev_ata.c ..\..\libsmdev\libsmdev_debug.c ..\..\libsmdev\libsmdev_error.c ..\..\libsmdev\libsmdev_handle.c ..\..\libsmdev\libsmdev_metadata.c ..\..\libsmdev\libsmdev_notify.c ..\..\libsmdev\libsmdev_optical_disc.c ..\..\libsmdev\libsmdev_scsi.c ..\..\libsmdev\libsmdev_sector_range.c ..\..\libsmdev\libsmdev_string.c ..\..\libsmdev\libsmdev_support.c ..\..\libsmdev\libsmdev_track_value.c ..\..\libsmdev\libsmdev_usb.c
+         libsmdev_ata.c
+         libsmdev_debug.c
+         libsmdev_error.c
+         libsmdev_handle.c
+         libsmdev_metadata.c
+         libsmdev_notify.c
+         libsmdev_optical_disc.c
+         libsmdev_scsi.c
+         libsmdev_sector_range.c
+         libsmdev_string.c
+         libsmdev_support.c
+         libsmdev_track_value.c
+         libsmdev_usb.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libsmdev.lib" /NOLOGO Release\libsmdev_ata.obj
+         Release\libsmdev_debug.obj
+         Release\libsmdev_error.obj
+         Release\libsmdev_handle.obj
+         Release\libsmdev_metadata.obj
+         Release\libsmdev_notify.obj
+         Release\libsmdev_optical_disc.obj
+         Release\libsmdev_scsi.obj
+         Release\libsmdev_sector_range.obj
+         Release\libsmdev_string.obj
+         Release\libsmdev_support.obj
+         Release\libsmdev_track_value.obj
+         Release\libsmdev_usb.obj
+         libsmdev.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libsmdev.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libsmdev.unsuccessfulbuild".
+         Touching "Release\libsmdev.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libsmdev\libsmdev.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.37

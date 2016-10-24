@@ -1,0 +1,31 @@
+﻿Build started 18/10/2016 11:39:17.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcaes\libcaes.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libcaes.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libcaes.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCAES /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libcaes\libcaes_context.c ..\..\libcaes\libcaes_crypt.c ..\..\libcaes\libcaes_error.c ..\..\libcaes\libcaes_key.c ..\..\libcaes\libcaes_support.c ..\..\libcaes\libcaes_tweaked_context.c
+         libcaes_context.c
+         libcaes_crypt.c
+         libcaes_error.c
+         libcaes_key.c
+         libcaes_support.c
+         libcaes_tweaked_context.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcaes.lib" /NOLOGO Release\libcaes_context.obj
+         Release\libcaes_crypt.obj
+         Release\libcaes_error.obj
+         Release\libcaes_key.obj
+         Release\libcaes_support.obj
+         Release\libcaes_tweaked_context.obj
+         libcaes.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcaes.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libcaes.unsuccessfulbuild".
+         Touching "Release\libcaes.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcaes\libcaes.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.08

@@ -1,0 +1,43 @@
+﻿Build started 17/10/2016 18:16:58.
+     1>Project "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\libfvalue\libfvalue.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libfvalue.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /I..\..\libcdata /I..\..\libcnotify /I..\..\libuna /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBFVALUE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libfvalue\libfvalue_binary_data.c ..\..\libfvalue\libfvalue_data_handle.c ..\..\libfvalue\libfvalue_error.c ..\..\libfvalue\libfvalue_filetime.c ..\..\libfvalue\libfvalue_floating_point.c ..\..\libfvalue\libfvalue_integer.c ..\..\libfvalue\libfvalue_split_string.c ..\..\libfvalue\libfvalue_string.c ..\..\libfvalue\libfvalue_support.c ..\..\libfvalue\libfvalue_table.c ..\..\libfvalue\libfvalue_value.c ..\..\libfvalue\libfvalue_value_entry.c ..\..\libfvalue\libfvalue_value_type.c
+         libfvalue_binary_data.c
+         libfvalue_data_handle.c
+         libfvalue_error.c
+         libfvalue_filetime.c
+         libfvalue_floating_point.c
+         libfvalue_integer.c
+         libfvalue_split_string.c
+         libfvalue_string.c
+         libfvalue_support.c
+         libfvalue_table.c
+         libfvalue_value.c
+         libfvalue_value_entry.c
+         libfvalue_value_type.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libfvalue.lib" /NOLOGO Release\libfvalue_binary_data.obj
+         Release\libfvalue_data_handle.obj
+         Release\libfvalue_error.obj
+         Release\libfvalue_filetime.obj
+         Release\libfvalue_floating_point.obj
+         Release\libfvalue_integer.obj
+         Release\libfvalue_split_string.obj
+         Release\libfvalue_string.obj
+         Release\libfvalue_support.obj
+         Release\libfvalue_table.obj
+         Release\libfvalue_value.obj
+         Release\libfvalue_value_entry.obj
+         Release\libfvalue_value_type.obj
+         libfvalue.vcxproj -> C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libfvalue.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libfvalue.unsuccessfulbuild".
+         Touching "Release\libfvalue.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\libfvalue\libfvalue.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.32

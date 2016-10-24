@@ -1,0 +1,15 @@
+﻿Build started 17/10/2016 17:51:22.
+     1>Project "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\vhdimount\vhdimount.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\vhdimount.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcdata /I..\..\libclocale /I..\..\libcnotify /I..\..\libcsplit /I..\..\libuna /I..\..\libcfile /I..\..\libcpath /I..\..\libbfio /I..\..\libfcache /I..\..\libfdata /I..\..\libfguid /I..\..\libcsystem /I..\..\..\dokan\dokan /Zi /nologo /W4 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBCSPLIT /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBCFILE /D HAVE_LOCAL_LIBCPATH /D HAVE_LOCAL_LIBBFIO /D HAVE_LOCAL_LIBFCACHE /D HAVE_LOCAL_LIBFDATA /D HAVE_LOCAL_LIBFGUID /D HAVE_LOCAL_LIBCSYSTEM /D HAVE_LIBDOKAN /D LIBVHDI_DLL_IMPORT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\vhditools\mount_handle.c ..\..\vhditools\vhdimount.c ..\..\vhditools\vhdioutput.c
+         mount_handle.c
+         vhdimount.c
+     1>..\..\vhditools\vhdimount.c(61): fatal error C1083: Cannot open include file: 'dokan.h': No such file or directory
+         vhdioutput.c
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\vhdimount\vhdimount.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.69

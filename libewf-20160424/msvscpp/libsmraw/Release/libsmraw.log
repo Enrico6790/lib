@@ -1,0 +1,35 @@
+﻿Build started 18/10/2016 11:39:45.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libsmraw\libsmraw.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libsmraw.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libsmraw.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /I..\..\libcdata /I..\..\libclocale /I..\..\libcnotify /I..\..\libcsplit /I..\..\libuna /I..\..\libcfile /I..\..\libcpath /I..\..\libbfio /I..\..\libfcache /I..\..\libfdata /I..\..\libfvalue /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBCSPLIT /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBCFILE /D HAVE_LOCAL_LIBCPATH /D HAVE_LOCAL_LIBBFIO /D HAVE_LOCAL_LIBFCACHE /D HAVE_LOCAL_LIBFDATA /D HAVE_LOCAL_LIBFVALUE /D HAVE_LOCAL_LIBSMRAW /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libsmraw\libsmraw_error.c ..\..\libsmraw\libsmraw_filename.c ..\..\libsmraw\libsmraw_handle.c ..\..\libsmraw\libsmraw_information_file.c ..\..\libsmraw\libsmraw_io_handle.c ..\..\libsmraw\libsmraw_metadata.c ..\..\libsmraw\libsmraw_notify.c ..\..\libsmraw\libsmraw_support.c
+         libsmraw_error.c
+         libsmraw_filename.c
+         libsmraw_handle.c
+         libsmraw_information_file.c
+         libsmraw_io_handle.c
+         libsmraw_metadata.c
+         libsmraw_notify.c
+         libsmraw_support.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libsmraw.lib" /NOLOGO Release\libsmraw_error.obj
+         Release\libsmraw_filename.obj
+         Release\libsmraw_handle.obj
+         Release\libsmraw_information_file.obj
+         Release\libsmraw_io_handle.obj
+         Release\libsmraw_metadata.obj
+         Release\libsmraw_notify.obj
+         Release\libsmraw_support.obj
+         libsmraw.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libsmraw.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libsmraw.unsuccessfulbuild".
+         Touching "Release\libsmraw.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libsmraw\libsmraw.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.09

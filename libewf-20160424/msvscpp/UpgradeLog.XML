@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="libewf">
+</Property><Property Name="Solution File" Value="C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libewf.sln">
+</Property><Property Name="Date" Value="martedì 18 ottobre 2016">
+</Property><Property Name="Time" Value="10:59">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="libewf.sln" Description="File successfully backed up as C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libewf.sln.old">
+</Event><Event ErrorLevel="0" Project="ewf.net" Source="ewf.net\ewf.net.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf.net\ewf.net.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewf.net" Source="ewf.net\ewf.net.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewf.net" Source="ewf.net\ewf.net.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf.net\ewf.net.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewf.net" Source="ewf.net\ewf.net.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libfcache" Source="libfcache\libfcache.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libfcache\libfcache.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libfcache" Source="libfcache\libfcache.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libfcache" Source="libfcache\libfcache.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libfcache\libfcache.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libfcache" Source="libfcache\libfcache.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="pyewf" Source="pyewf\pyewf.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\pyewf\pyewf.vcproj'.">
+</Event><Event ErrorLevel="1" Project="pyewf" Source="pyewf\pyewf.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="pyewf" Source="pyewf\pyewf.vcproj" Description="MSB8012: $(TargetExt) ('.dll') does not match the Linker's OutputFile property value 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\pyewf.pyd' ('.pyd') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetExt) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="pyewf" Source="pyewf\pyewf.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\pyewf.dll') does not match the Linker's OutputFile property value 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\pyewf.pyd' ('C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\pyewf.pyd') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="pyewf" Source="pyewf\pyewf.vcproj" Description="MSB8012: $(TargetExt) ('.dll') does not match the Linker's OutputFile property value 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\VSDebug\pyewf.pyd' ('.pyd') in project configuration 'VSDebug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetExt) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="pyewf" Source="pyewf\pyewf.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\VSDebug\pyewf.dll') does not match the Linker's OutputFile property value 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\VSDebug\pyewf.pyd' ('C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\VSDebug\pyewf.pyd') in project configuration 'VSDebug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="pyewf" Source="pyewf\pyewf.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\pyewf\pyewf.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="pyewf" Source="pyewf\pyewf.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libsmraw" Source="libsmraw\libsmraw.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libsmraw\libsmraw.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libsmraw" Source="libsmraw\libsmraw.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libsmraw" Source="libsmraw\libsmraw.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libsmraw\libsmraw.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libsmraw" Source="libsmraw\libsmraw.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libfguid" Source="libfguid\libfguid.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libfguid\libfguid.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libfguid" Source="libfguid\libfguid.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libfguid" Source="libfguid\libfguid.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libfguid\libfguid.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libfguid" Source="libfguid\libfguid.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewf_test_get_version" Source="ewf_test_get_version\ewf_test_get_version.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_get_version\ewf_test_get_version.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewf_test_get_version" Source="ewf_test_get_version\ewf_test_get_version.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewf_test_get_version" Source="ewf_test_get_version\ewf_test_get_version.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_get_version\ewf_test_get_version.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewf_test_get_version" Source="ewf_test_get_version\ewf_test_get_version.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewf_test_glob" Source="ewf_test_glob\ewf_test_glob.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_glob\ewf_test_glob.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewf_test_glob" Source="ewf_test_glob\ewf_test_glob.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewf_test_glob" Source="ewf_test_glob\ewf_test_glob.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_glob\ewf_test_glob.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewf_test_glob" Source="ewf_test_glob\ewf_test_glob.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewf_test_handle_get_values" Source="ewf_test_handle_get_values\ewf_test_handle_get_values.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_handle_get_values\ewf_test_handle_get_values.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewf_test_handle_get_values" Source="ewf_test_handle_get_values\ewf_test_handle_get_values.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewf_test_handle_get_values" Source="ewf_test_handle_get_values\ewf_test_handle_get_values.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_handle_get_values\ewf_test_handle_get_values.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewf_test_handle_get_values" Source="ewf_test_handle_get_values\ewf_test_handle_get_values.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewf_test_open_close" Source="ewf_test_open_close\ewf_test_open_close.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_open_close\ewf_test_open_close.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewf_test_open_close" Source="ewf_test_open_close\ewf_test_open_close.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewf_test_open_close" Source="ewf_test_open_close\ewf_test_open_close.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_open_close\ewf_test_open_close.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewf_test_open_close" Source="ewf_test_open_close\ewf_test_open_close.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewf_test_read" Source="ewf_test_read\ewf_test_read.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_read\ewf_test_read.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewf_test_read" Source="ewf_test_read\ewf_test_read.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewf_test_read" Source="ewf_test_read\ewf_test_read.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_read\ewf_test_read.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewf_test_read" Source="ewf_test_read\ewf_test_read.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewf_test_read_chunk" Source="ewf_test_read_chunk\ewf_test_read_chunk.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_read_chunk\ewf_test_read_chunk.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewf_test_read_chunk" Source="ewf_test_read_chunk\ewf_test_read_chunk.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewf_test_read_chunk" Source="ewf_test_read_chunk\ewf_test_read_chunk.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_read_chunk\ewf_test_read_chunk.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewf_test_read_chunk" Source="ewf_test_read_chunk\ewf_test_read_chunk.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewf_test_seek" Source="ewf_test_seek\ewf_test_seek.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_seek\ewf_test_seek.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewf_test_seek" Source="ewf_test_seek\ewf_test_seek.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewf_test_seek" Source="ewf_test_seek\ewf_test_seek.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_seek\ewf_test_seek.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewf_test_seek" Source="ewf_test_seek\ewf_test_seek.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewf_test_truncate" Source="ewf_test_truncate\ewf_test_truncate.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_truncate\ewf_test_truncate.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewf_test_truncate" Source="ewf_test_truncate\ewf_test_truncate.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewf_test_truncate" Source="ewf_test_truncate\ewf_test_truncate.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_truncate\ewf_test_truncate.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewf_test_truncate" Source="ewf_test_truncate\ewf_test_truncate.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewf_test_write" Source="ewf_test_write\ewf_test_write.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_write\ewf_test_write.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewf_test_write" Source="ewf_test_write\ewf_test_write.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewf_test_write" Source="ewf_test_write\ewf_test_write.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_write\ewf_test_write.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewf_test_write" Source="ewf_test_write\ewf_test_write.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewf_test_write_chunk" Source="ewf_test_write_chunk\ewf_test_write_chunk.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_write_chunk\ewf_test_write_chunk.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewf_test_write_chunk" Source="ewf_test_write_chunk\ewf_test_write_chunk.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewf_test_write_chunk" Source="ewf_test_write_chunk\ewf_test_write_chunk.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewf_test_write_chunk\ewf_test_write_chunk.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewf_test_write_chunk" Source="ewf_test_write_chunk\ewf_test_write_chunk.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libclocale" Source="libclocale\libclocale.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libclocale\libclocale.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libclocale" Source="libclocale\libclocale.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libclocale" Source="libclocale\libclocale.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libclocale\libclocale.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libclocale" Source="libclocale\libclocale.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libsmdev" Source="libsmdev\libsmdev.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libsmdev\libsmdev.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libsmdev" Source="libsmdev\libsmdev.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libsmdev" Source="libsmdev\libsmdev.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libsmdev\libsmdev.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libsmdev" Source="libsmdev\libsmdev.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libbfio" Source="libbfio\libbfio.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libbfio\libbfio.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libbfio" Source="libbfio\libbfio.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libbfio" Source="libbfio\libbfio.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libbfio\libbfio.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libbfio" Source="libbfio\libbfio.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libcaes" Source="libcaes\libcaes.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcaes\libcaes.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libcaes" Source="libcaes\libcaes.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libcaes" Source="libcaes\libcaes.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcaes\libcaes.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libcaes" Source="libcaes\libcaes.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libewf" Source="libewf\libewf.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libewf\libewf.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libewf" Source="libewf\libewf.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libewf" Source="libewf\libewf.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libewf\libewf.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libewf" Source="libewf\libewf.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libcdatetime" Source="libcdatetime\libcdatetime.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcdatetime\libcdatetime.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libcdatetime" Source="libcdatetime\libcdatetime.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libcdatetime" Source="libcdatetime\libcdatetime.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcdatetime\libcdatetime.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libcdatetime" Source="libcdatetime\libcdatetime.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libodraw" Source="libodraw\libodraw.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libodraw\libodraw.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libodraw" Source="libodraw\libodraw.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libodraw" Source="libodraw\libodraw.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libodraw\libodraw.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libodraw" Source="libodraw\libodraw.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libcfile" Source="libcfile\libcfile.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcfile\libcfile.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libcfile" Source="libcfile\libcfile.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libcfile" Source="libcfile\libcfile.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcfile\libcfile.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libcfile" Source="libcfile\libcfile.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libcthreads" Source="libcthreads\libcthreads.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcthreads\libcthreads.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libcthreads" Source="libcthreads\libcthreads.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libcthreads" Source="libcthreads\libcthreads.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcthreads\libcthreads.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libcthreads" Source="libcthreads\libcthreads.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libcpath" Source="libcpath\libcpath.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcpath\libcpath.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libcpath" Source="libcpath\libcpath.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libcpath" Source="libcpath\libcpath.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcpath\libcpath.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libcpath" Source="libcpath\libcpath.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libhmac" Source="libhmac\libhmac.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libhmac\libhmac.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libhmac" Source="libhmac\libhmac.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libhmac" Source="libhmac\libhmac.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libhmac\libhmac.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libhmac" Source="libhmac\libhmac.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libcstring" Source="libcstring\libcstring.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcstring\libcstring.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libcstring" Source="libcstring\libcstring.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libcstring" Source="libcstring\libcstring.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcstring\libcstring.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libcstring" Source="libcstring\libcstring.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libuna" Source="libuna\libuna.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libuna\libuna.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libuna" Source="libuna\libuna.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libuna" Source="libuna\libuna.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libuna\libuna.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libuna" Source="libuna\libuna.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libfvalue" Source="libfvalue\libfvalue.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libfvalue\libfvalue.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libfvalue" Source="libfvalue\libfvalue.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libfvalue" Source="libfvalue\libfvalue.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libfvalue\libfvalue.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libfvalue" Source="libfvalue\libfvalue.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libcerror" Source="libcerror\libcerror.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcerror\libcerror.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libcerror" Source="libcerror\libcerror.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libcerror" Source="libcerror\libcerror.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcerror\libcerror.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libcerror" Source="libcerror\libcerror.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libcnotify" Source="libcnotify\libcnotify.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcnotify\libcnotify.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libcnotify" Source="libcnotify\libcnotify.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libcnotify" Source="libcnotify\libcnotify.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcnotify\libcnotify.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libcnotify" Source="libcnotify\libcnotify.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libcsystem" Source="libcsystem\libcsystem.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcsystem\libcsystem.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libcsystem" Source="libcsystem\libcsystem.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="libcsystem" Source="libcsystem\libcsystem.vcproj" Description="The following file(s) were found multiple times in the project/filter and duplicates were ignored: '..\..\libcsystem\libcsystem_libcstring.h'.">
+</Event><Event ErrorLevel="0" Project="libcsystem" Source="libcsystem\libcsystem.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcsystem\libcsystem.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libcsystem" Source="libcsystem\libcsystem.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewfacquire" Source="ewfacquire\ewfacquire.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfacquire\ewfacquire.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewfacquire" Source="ewfacquire\ewfacquire.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewfacquire" Source="ewfacquire\ewfacquire.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfacquire\ewfacquire.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewfacquire" Source="ewfacquire\ewfacquire.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewfacquirestream" Source="ewfacquirestream\ewfacquirestream.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfacquirestream\ewfacquirestream.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewfacquirestream" Source="ewfacquirestream\ewfacquirestream.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewfacquirestream" Source="ewfacquirestream\ewfacquirestream.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfacquirestream\ewfacquirestream.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewfacquirestream" Source="ewfacquirestream\ewfacquirestream.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewfdebug" Source="ewfdebug\ewfdebug.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfdebug\ewfdebug.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewfdebug" Source="ewfdebug\ewfdebug.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewfdebug" Source="ewfdebug\ewfdebug.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfdebug\ewfdebug.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewfdebug" Source="ewfdebug\ewfdebug.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewfexport" Source="ewfexport\ewfexport.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfexport\ewfexport.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewfexport" Source="ewfexport\ewfexport.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewfexport" Source="ewfexport\ewfexport.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfexport\ewfexport.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewfexport" Source="ewfexport\ewfexport.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewfinfo" Source="ewfinfo\ewfinfo.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfinfo\ewfinfo.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewfinfo" Source="ewfinfo\ewfinfo.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewfinfo" Source="ewfinfo\ewfinfo.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfinfo\ewfinfo.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewfinfo" Source="ewfinfo\ewfinfo.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewfmount" Source="ewfmount\ewfmount.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfmount\ewfmount.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewfmount" Source="ewfmount\ewfmount.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewfmount" Source="ewfmount\ewfmount.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfmount\ewfmount.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewfmount" Source="ewfmount\ewfmount.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewfrecover" Source="ewfrecover\ewfrecover.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfrecover\ewfrecover.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewfrecover" Source="ewfrecover\ewfrecover.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewfrecover" Source="ewfrecover\ewfrecover.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfrecover\ewfrecover.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewfrecover" Source="ewfrecover\ewfrecover.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ewfverify" Source="ewfverify\ewfverify.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfverify\ewfverify.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ewfverify" Source="ewfverify\ewfverify.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ewfverify" Source="ewfverify\ewfverify.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfverify\ewfverify.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ewfverify" Source="ewfverify\ewfverify.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libfdata" Source="libfdata\libfdata.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libfdata\libfdata.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libfdata" Source="libfdata\libfdata.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libfdata" Source="libfdata\libfdata.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libfdata\libfdata.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libfdata" Source="libfdata\libfdata.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libcdata" Source="libcdata\libcdata.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcdata\libcdata.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libcdata" Source="libcdata\libcdata.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libcdata" Source="libcdata\libcdata.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcdata\libcdata.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libcdata" Source="libcdata\libcdata.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libcsplit" Source="libcsplit\libcsplit.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcsplit\libcsplit.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libcsplit" Source="libcsplit\libcsplit.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libcsplit" Source="libcsplit\libcsplit.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcsplit\libcsplit.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libcsplit" Source="libcsplit\libcsplit.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dokan" Source="dokan\dokan.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\dokan\dokan.vcproj'.">
+</Event><Event ErrorLevel="1" Project="dokan" Source="dokan\dokan.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="dokan" Source="dokan\dokan.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\dokan\dokan.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="dokan" Source="dokan\dokan.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="bzip2" Source="bzip2\bzip2.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\bzip2\bzip2.vcproj'.">
+</Event><Event ErrorLevel="1" Project="bzip2" Source="bzip2\bzip2.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="bzip2" Source="bzip2\bzip2.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\bzip2\bzip2.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="bzip2" Source="bzip2\bzip2.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="zlib" Source="zlib\zlib.vcproj" Description="Converting project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\zlib\zlib.vcproj'.">
+</Event><Event ErrorLevel="1" Project="zlib" Source="zlib\zlib.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="zlib" Source="zlib\zlib.vcproj" Description="Done converting to new project file 'C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\zlib\zlib.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="zlib" Source="zlib\zlib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="libewf.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="libewf.sln" Description="Converted">
+</Event></UpgradeLog>

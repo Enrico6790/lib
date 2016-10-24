@@ -1,0 +1,25 @@
+﻿Build started 18/10/2016 11:38:52.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcerror\libcerror.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libcerror.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libcerror.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libcerror\libcerror_error.c ..\..\libcerror\libcerror_support.c ..\..\libcerror\libcerror_system.c
+         libcerror_error.c
+         libcerror_support.c
+         libcerror_system.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcerror.lib" /NOLOGO Release\libcerror_error.obj
+         Release\libcerror_support.obj
+         Release\libcerror_system.obj
+         libcerror.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcerror.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libcerror.unsuccessfulbuild".
+         Touching "Release\libcerror.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcerror\libcerror.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.16

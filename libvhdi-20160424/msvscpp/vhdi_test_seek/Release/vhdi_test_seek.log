@@ -1,0 +1,35 @@
+﻿Build started 17/10/2016 17:51:26.
+     1>Project "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\vhdi_test_seek\vhdi_test_seek.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\vhdi_test_seek.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /I..\..\libcdata /I..\..\libclocale /I..\..\libcnotify /I..\..\libcsplit /I..\..\libuna /I..\..\libcfile /I..\..\libcpath /I..\..\libbfio /I..\..\libcsystem /Zi /nologo /W4 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBCSPLIT /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBCFILE /D HAVE_LOCAL_LIBCPATH /D HAVE_LOCAL_LIBBFIO /D HAVE_LOCAL_LIBCSYSTEM /D LIBVHDI_DLL_IMPORT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\tests\vhdi_test_seek.c
+         vhdi_test_seek.c
+     1>..\..\tests\vhdi_test_seek.c(221): warning C4245: '=' : conversion from 'int' to 'size64_t', signed/unsigned mismatch
+     1>..\..\tests\vhdi_test_seek.c(472): warning C4189: 'entry_index' : local variable is initialized but not referenced
+     1>..\..\tests\vhdi_test_seek.c(979): warning C4189: 'result' : local variable is initialized but not referenced
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\vhdi_test_seek.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\vhdi_test_seek.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\vhdi_test_seek.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\vhdi_test_seek.lib" /MACHINE:X86 Release\vhdi_test_seek.obj
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcstring.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcerror.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libclocale.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcsplit.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libuna.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcpath.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcnotify.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcsystem.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcthreads.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libvhdi.lib"
+         Generating code
+         Finished generating code
+         vhdi_test_seek.vcxproj -> C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\vhdi_test_seek.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\vhdi_test_seek.exe;#1" /manifest Release\vhdi_test_seek.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\vhdi_test_seek.unsuccessfulbuild".
+         Touching "Release\vhdi_test_seek.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\vhdi_test_seek\vhdi_test_seek.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.59

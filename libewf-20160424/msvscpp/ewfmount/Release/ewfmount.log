@@ -1,0 +1,13 @@
+﻿Build started 18/10/2016 11:34:45.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfmount\ewfmount.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\ewfmount.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /I..\..\libcdata /I..\..\libcdatetime /I..\..\libclocale /I..\..\libcnotify /I..\..\libcsplit /I..\..\libuna /I..\..\libcfile /I..\..\libcpath /I..\..\libbfio /I..\..\libfcache /I..\..\libfdata /I..\..\libfvalue /I..\..\libhmac /I..\..\libodraw /I..\..\libsmdev /I..\..\libsmraw /I..\..\libcsystem /I..\..\..\dokan\dokan /Zi /nologo /W4 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBCDATETIME /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBCSPLIT /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBCFILE /D HAVE_LOCAL_LIBCPATH /D HAVE_LOCAL_LIBBFIO /D HAVE_LOCAL_LIBFCACHE /D HAVE_LOCAL_LIBFDATA /D HAVE_LOCAL_LIBFVALUE /D HAVE_LOCAL_LIBHMAC /D HAVE_LOCAL_LIBODRAW /D HAVE_LOCAL_LIBSMDEV /D HAVE_LOCAL_LIBSMRAW /D HAVE_LOCAL_LIBCSYSTEM /D HAVE_LIBDOKAN /D LIBEWF_DLL_IMPORT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\ewftools\ewfmount.c
+         ewfmount.c
+     1>..\..\ewftools\ewfmount.c(69): fatal error C1083: Cannot open include file: 'dokan.h': No such file or directory
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfmount\ewfmount.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.41

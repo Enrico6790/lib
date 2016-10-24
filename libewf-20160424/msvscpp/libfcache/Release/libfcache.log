@@ -1,0 +1,29 @@
+﻿Build started 18/10/2016 11:39:22.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libfcache\libfcache.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libfcache.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libfcache.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /I..\..\libcdata /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBFCACHE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libfcache\libfcache_cache.c ..\..\libfcache\libfcache_cache_value.c ..\..\libfcache\libfcache_date_time.c ..\..\libfcache\libfcache_error.c ..\..\libfcache\libfcache_support.c
+         libfcache_cache.c
+         libfcache_cache_value.c
+         libfcache_date_time.c
+         libfcache_error.c
+         libfcache_support.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libfcache.lib" /NOLOGO Release\libfcache_cache.obj
+         Release\libfcache_cache_value.obj
+         Release\libfcache_date_time.obj
+         Release\libfcache_error.obj
+         Release\libfcache_support.obj
+         libfcache.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libfcache.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libfcache.unsuccessfulbuild".
+         Touching "Release\libfcache.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libfcache\libfcache.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.15

@@ -1,0 +1,59 @@
+﻿Build started 18/10/2016 11:40:31.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfacquirestream\ewfacquirestream.vcxproj" on node 5 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\ewfacquirestream.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\ewfacquirestream.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /I..\..\libcdata /I..\..\libcdatetime /I..\..\libclocale /I..\..\libcnotify /I..\..\libcsplit /I..\..\libuna /I..\..\libcfile /I..\..\libcpath /I..\..\libbfio /I..\..\libfcache /I..\..\libfdata /I..\..\libfvalue /I..\..\libhmac /I..\..\libodraw /I..\..\libsmdev /I..\..\libsmraw /I..\..\libcsystem /Zi /nologo /W4 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBCDATETIME /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBCSPLIT /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBCFILE /D HAVE_LOCAL_LIBCPATH /D HAVE_LOCAL_LIBBFIO /D HAVE_LOCAL_LIBFCACHE /D HAVE_LOCAL_LIBFDATA /D HAVE_LOCAL_LIBFVALUE /D HAVE_LOCAL_LIBHMAC /D HAVE_LOCAL_LIBODRAW /D HAVE_LOCAL_LIBSMDEV /D HAVE_LOCAL_LIBSMRAW /D HAVE_LOCAL_LIBCSYSTEM /D LIBEWF_DLL_IMPORT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\ewftools\byte_size_string.c ..\..\ewftools\digest_hash.c ..\..\ewftools\ewfacquirestream.c ..\..\ewftools\ewfinput.c ..\..\ewftools\ewfoutput.c ..\..\ewftools\guid.c ..\..\ewftools\imaging_handle.c ..\..\ewftools\log_handle.c ..\..\ewftools\platform.c ..\..\ewftools\process_status.c ..\..\ewftools\storage_media_buffer.c ..\..\ewftools\storage_media_buffer_queue.c
+         byte_size_string.c
+         digest_hash.c
+         ewfacquirestream.c
+         ewfinput.c
+         ewfoutput.c
+         guid.c
+         imaging_handle.c
+         log_handle.c
+         platform.c
+         process_status.c
+         storage_media_buffer.c
+         storage_media_buffer_queue.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\ewfacquirestream.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\\" advapi32.lib rpcrt4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ewfacquirestream.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\ewfacquirestream.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\ewfacquirestream.lib" /MACHINE:X86 Release\byte_size_string.obj
+         Release\digest_hash.obj
+         Release\ewfacquirestream.obj
+         Release\ewfinput.obj
+         Release\ewfoutput.obj
+         Release\guid.obj
+         Release\imaging_handle.obj
+         Release\log_handle.obj
+         Release\platform.obj
+         Release\process_status.obj
+         Release\storage_media_buffer.obj
+         Release\storage_media_buffer_queue.obj
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcstring.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcerror.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcthreads.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcdata.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcdatetime.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libclocale.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcnotify.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libuna.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcfile.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcsplit.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcsystem.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libhmac.lib"
+         "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libewf.lib"
+         Generating code
+         Finished generating code
+         ewfacquirestream.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\ewfacquirestream.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\ewfacquirestream.exe;#1" /manifest Release\ewfacquirestream.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\ewfacquirestream.unsuccessfulbuild".
+         Touching "Release\ewfacquirestream.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\ewfacquirestream\ewfacquirestream.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.38

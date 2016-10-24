@@ -1,0 +1,27 @@
+﻿Build started 18/10/2016 11:39:17.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcfile\libcfile.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libcfile.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libcfile.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libclocale /I..\..\libcnotify /I..\..\libuna /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBCFILE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libcfile\libcfile_error.c ..\..\libcfile\libcfile_file.c ..\..\libcfile\libcfile_notify.c ..\..\libcfile\libcfile_support.c
+         libcfile_error.c
+         libcfile_file.c
+         libcfile_notify.c
+         libcfile_support.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcfile.lib" /NOLOGO Release\libcfile_error.obj
+         Release\libcfile_file.obj
+         Release\libcfile_notify.obj
+         Release\libcfile_support.obj
+         libcfile.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libcfile.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libcfile.unsuccessfulbuild".
+         Touching "Release\libcfile.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libcfile\libcfile.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.23

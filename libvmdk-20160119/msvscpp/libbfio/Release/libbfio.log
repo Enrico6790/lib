@@ -1,0 +1,33 @@
+﻿Build started 17/10/2016 18:17:03.
+     1>Project "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\libbfio\libbfio.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libbfio.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /I..\..\libclocale /I..\..\libcnotify /I..\..\libcdata /I..\..\libcsplit /I..\..\libcfile /I..\..\libcpath /I..\..\libuna /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBCSPLIT /D HAVE_LOCAL_LIBCFILE /D HAVE_LOCAL_LIBCPATH /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBBFIO /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libbfio\libbfio_error.c ..\..\libbfio\libbfio_file.c ..\..\libbfio\libbfio_file_pool.c ..\..\libbfio\libbfio_file_range.c ..\..\libbfio\libbfio_handle.c ..\..\libbfio\libbfio_memory_range.c ..\..\libbfio\libbfio_pool.c ..\..\libbfio\libbfio_support.c
+         libbfio_error.c
+         libbfio_file.c
+         libbfio_file_pool.c
+         libbfio_file_range.c
+         libbfio_handle.c
+         libbfio_memory_range.c
+         libbfio_pool.c
+         libbfio_support.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libbfio.lib" /NOLOGO Release\libbfio_error.obj
+         Release\libbfio_file.obj
+         Release\libbfio_file_pool.obj
+         Release\libbfio_file_range.obj
+         Release\libbfio_handle.obj
+         Release\libbfio_memory_range.obj
+         Release\libbfio_pool.obj
+         Release\libbfio_support.obj
+         libbfio.vcxproj -> C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\Release\libbfio.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libbfio.unsuccessfulbuild".
+         Touching "Release\libbfio.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\libbfio\libbfio.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.29

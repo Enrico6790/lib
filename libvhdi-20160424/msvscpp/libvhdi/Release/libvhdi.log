@@ -1,0 +1,61 @@
+﻿Build started 17/10/2016 17:51:14.
+     1>Project "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\libvhdi\libvhdi.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libvhdi.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /I..\..\libcdata /I..\..\libclocale /I..\..\libcnotify /I..\..\libcsplit /I..\..\libuna /I..\..\libcfile /I..\..\libcpath /I..\..\libbfio /I..\..\libfcache /I..\..\libfdata /I..\..\libfguid /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBCSPLIT /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBCFILE /D HAVE_LOCAL_LIBCPATH /D HAVE_LOCAL_LIBBFIO /D HAVE_LOCAL_LIBFCACHE /D HAVE_LOCAL_LIBFDATA /D HAVE_LOCAL_LIBFGUID /D LIBVHDI_DLL_EXPORT /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libvhdi\libvhdi.c ..\..\libvhdi\libvhdi_block_table.c ..\..\libvhdi\libvhdi_data_block.c ..\..\libvhdi\libvhdi_debug.c ..\..\libvhdi\libvhdi_error.c ..\..\libvhdi\libvhdi_file.c ..\..\libvhdi\libvhdi_i18n.c ..\..\libvhdi\libvhdi_io_handle.c ..\..\libvhdi\libvhdi_metadata.c ..\..\libvhdi\libvhdi_notify.c ..\..\libvhdi\libvhdi_support.c
+         libvhdi.c
+         libvhdi_block_table.c
+         libvhdi_data_block.c
+         libvhdi_debug.c
+         libvhdi_error.c
+         libvhdi_file.c
+     1>..\..\libvhdi\libvhdi_file.c(745): warning C4244: '=' : conversion from 'int' to 'uint8_t', possible loss of data
+         libvhdi_i18n.c
+     1>..\..\libvhdi\libvhdi_i18n.c(37): warning C4100: 'error' : unreferenced formal parameter
+         libvhdi_io_handle.c
+         libvhdi_metadata.c
+         libvhdi_notify.c
+         libvhdi_support.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\libvhdi.res" ..\..\libvhdi\libvhdi.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libvhdi.dll" /NOLOGO /LIBPATH:"C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\libvhdi.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libvhdi.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libvhdi.lib" /MACHINE:X86 /DLL Release\libvhdi.res
+         Release\libvhdi.obj
+         Release\libvhdi_block_table.obj
+         Release\libvhdi_data_block.obj
+         Release\libvhdi_debug.obj
+         Release\libvhdi_error.obj
+         Release\libvhdi_file.obj
+         Release\libvhdi_i18n.obj
+         Release\libvhdi_io_handle.obj
+         Release\libvhdi_metadata.obj
+         Release\libvhdi_notify.obj
+         Release\libvhdi_support.obj
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcstring.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcerror.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcthreads.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcdata.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libclocale.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcnotify.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libuna.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcfile.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcsplit.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libcpath.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libbfio.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libfcache.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libfdata.lib"
+         "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libfguid.lib"
+            Creating library C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libvhdi.lib and object C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libvhdi.exp
+         libvhdi.vcxproj -> C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libvhdi.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\Release\libvhdi.dll;#2" /manifest Release\libvhdi.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\libvhdi.unsuccessfulbuild".
+         Touching "Release\libvhdi.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\libvhdi\libvhdi.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.06

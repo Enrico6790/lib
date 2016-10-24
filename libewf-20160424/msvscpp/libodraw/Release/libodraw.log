@@ -1,0 +1,71 @@
+﻿Build started 18/10/2016 11:39:35.
+     1>Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libodraw\libodraw.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libodraw.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libodraw.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\common /I..\..\libcstring /I..\..\libcerror /I..\..\libcthreads /I..\..\libcdata /I..\..\libclocale /I..\..\libcnotify /I..\..\libcsplit /I..\..\libuna /I..\..\libcfile /I..\..\libcpath /I..\..\libbfio /Zi /nologo /W4 /WX- /O2 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D HAVE_LOCAL_LIBCSTRING /D HAVE_LOCAL_LIBCERROR /D HAVE_LOCAL_LIBCTHREADS /D HAVE_LOCAL_LIBCDATA /D HAVE_LOCAL_LIBCLOCALE /D HAVE_LOCAL_LIBCNOTIFY /D HAVE_LOCAL_LIBCSPLIT /D HAVE_LOCAL_LIBUNA /D HAVE_LOCAL_LIBCFILE /D HAVE_LOCAL_LIBCPATH /D HAVE_LOCAL_LIBBFIO /D HAVE_LOCAL_LIBODRAW /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\libodraw\libodraw_cue_parser.c ..\..\libodraw\libodraw_cue_scanner.c ..\..\libodraw\libodraw_data_file.c ..\..\libodraw\libodraw_data_file_descriptor.c ..\..\libodraw\libodraw_debug.c ..\..\libodraw\libodraw_error.c ..\..\libodraw\libodraw_handle.c ..\..\libodraw\libodraw_io_handle.c ..\..\libodraw\libodraw_metadata.c ..\..\libodraw\libodraw_notify.c ..\..\libodraw\libodraw_sector_range.c ..\..\libodraw\libodraw_support.c ..\..\libodraw\libodraw_track_value.c
+         libodraw_cue_parser.c
+     1>..\..\libodraw\libodraw_cue_parser.c(1458): warning C4244: '=' : conversion from 'int' to 'yytype_int16', possible loss of data
+         libodraw_cue_scanner.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(72): warning C4005: 'INT8_MIN' : macro redefinition
+                 libodraw_cue_scanner.c(79) : see previous definition of 'INT8_MIN'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(73): warning C4005: 'INT16_MIN' : macro redefinition
+                 libodraw_cue_scanner.c(82) : see previous definition of 'INT16_MIN'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(74): warning C4005: 'INT32_MIN' : macro redefinition
+                 libodraw_cue_scanner.c(85) : see previous definition of 'INT32_MIN'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(76): warning C4005: 'INT8_MAX' : macro redefinition
+                 libodraw_cue_scanner.c(88) : see previous definition of 'INT8_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(77): warning C4005: 'INT16_MAX' : macro redefinition
+                 libodraw_cue_scanner.c(91) : see previous definition of 'INT16_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(78): warning C4005: 'INT32_MAX' : macro redefinition
+                 libodraw_cue_scanner.c(94) : see previous definition of 'INT32_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(79): warning C4005: 'UINT8_MAX' : macro redefinition
+                 libodraw_cue_scanner.c(97) : see previous definition of 'UINT8_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(80): warning C4005: 'UINT16_MAX' : macro redefinition
+                 libodraw_cue_scanner.c(100) : see previous definition of 'UINT16_MAX'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h(81): warning C4005: 'UINT32_MAX' : macro redefinition
+                 libodraw_cue_scanner.c(103) : see previous definition of 'UINT32_MAX'
+     1>libodraw_cue_scanner.l(378): warning C4100: 'parser_state' : unreferenced formal parameter
+         libodraw_data_file.c
+         libodraw_data_file_descriptor.c
+         libodraw_debug.c
+         libodraw_error.c
+         libodraw_handle.c
+     1>..\..\libodraw\libodraw_handle.c(893): warning C4244: '=' : conversion from 'int' to 'uint8_t', possible loss of data
+     1>..\..\libodraw\libodraw_handle.c(897): warning C4102: 'on_error' : unreferenced label
+         libodraw_io_handle.c
+         libodraw_metadata.c
+         libodraw_notify.c
+         libodraw_sector_range.c
+         libodraw_support.c
+         libodraw_track_value.c
+         Generating Code...
+     1>c:\users\adevito\documents\tools\libewf-20160424\libodraw\libodraw_handle.c(898): warning C4702: unreachable code
+     1>c:\users\adevito\documents\tools\libewf-20160424\libodraw\libodraw_handle.c(902): warning C4702: unreachable code
+     1>c:\users\adevito\documents\tools\libewf-20160424\libodraw\libodraw_handle.c(904): warning C4702: unreachable code
+     1>c:\users\adevito\documents\tools\libewf-20160424\libodraw\libodraw_cue_parser.c(2583): warning C4702: unreachable code
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libodraw.lib" /NOLOGO Release\libodraw_cue_parser.obj
+         Release\libodraw_cue_scanner.obj
+         Release\libodraw_data_file.obj
+         Release\libodraw_data_file_descriptor.obj
+         Release\libodraw_debug.obj
+         Release\libodraw_error.obj
+         Release\libodraw_handle.obj
+         Release\libodraw_io_handle.obj
+         Release\libodraw_metadata.obj
+         Release\libodraw_notify.obj
+         Release\libodraw_sector_range.obj
+         Release\libodraw_support.obj
+         Release\libodraw_track_value.obj
+         libodraw.vcxproj -> C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\Release\libodraw.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libodraw.unsuccessfulbuild".
+         Touching "Release\libodraw.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\libodraw\libodraw.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.53
